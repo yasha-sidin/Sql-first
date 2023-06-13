@@ -1,0 +1,19 @@
+SELECT product_name, manufacturer, price 
+FROM homework1
+WHERE product_count > 2;
+
+SELECT * 
+FROM homework1
+WHERE manufacturer = 'Samsung';
+
+SELECT * 
+FROM homework1
+WHERE product_name LIKE '%iPhone%';
+
+SELECT * 
+FROM homework1
+WHERE manufacturer LIKE '%Samsung%';
+
+SELECT *
+FROM homework1
+WHERE product_name REGEXP '.*[8]+.*';
